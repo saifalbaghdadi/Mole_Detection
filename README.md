@@ -1,17 +1,6 @@
 # Challenge-Mole
 
----
-## Table of Contents
-* [Project Summary](#summary)
-* [Development Process](#process)
-* [Model Creation](#model)
-* [Website](#website)
-* [Deployment](#deploy)
-* [Refernces](#refernces)
-
----
-
-## Project Summary <a name="summary"></a>
+## Project Summary 
 This tool takes the image of a mole as an input and calculates the probability of that mole being malign (Cancerous).
 Skin Cancer is a common disease these days.
 * A total of 18.1 million new cases and 9.6 million deaths from skin cancer were estimated globally in 2018.
@@ -21,7 +10,7 @@ Skin Cancer is a common disease these days.
 * Early detection is critical.
 
 
-## Model Creation <a name="model"></a>
+## Model Creation 
 Built the CNN model from scratch, the key features implemented in the model are:
 * **Conv2d** - All the convolutional layers have the same parameters except the input channel and output channel size.
 * **MaxPool2d** - Downsamples the input along its spatial dimensions (height and width) by taking the maximum value over an input window (of size defined by pool_size) for each channel of the input.
@@ -31,13 +20,13 @@ Built the CNN model from scratch, the key features implemented in the model are:
 
 
 
-## Deployment <a name="website"></a>
+## Deployment 
 Used the Flask framework in python for creating the backend of the website, and used HTML, CSS, and Bootstrap for the structure and designing of each page. The input is taken in as a file and is checked whether it is an image or not using the extension of the file. The image is firstly stored in the static folder which, after each refresh, empties itself, so any image uploaded will be lost after a refresh. After the image has been uploaded and stored, it will be processed so that it is compatible with our model, and then passed to the model for classification. The result from the model is then displayed on the same page using jinja2. As for any type of error, we have used Flask framework's Flash messages module for displaying that error to the user in a readable format.
 
 ![Snapshot of the App](https://raw.githubusercontent.com/saifalbaghdadi/saifalbaghdadi/development/img/sc.png)
 
 
-# Description
+## Dataset 
 This is a job we received from the company "skinCare".
 The job entailed that we would develop a website that would be able to classify pictures of moles.
 
