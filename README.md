@@ -21,13 +21,6 @@ Skin Cancer is a common disease these days.
 * Early detection is critical.
 
 
-## Development Process <a name="process"></a>
-This principle component of this project is a CNN model that can predict the probability of a pole being malign. 
-
-Dataset: https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
-
-
-
 ## Model Creation <a name="model"></a>
 Built the CNN model from scratch, the key features implemented in the model are:
 * **Conv2d** - All the convolutional layers have the same parameters except the input channel and output channel size.
@@ -50,15 +43,6 @@ After the website was created, we added the Dockerfile file to our directory for
 For the deployment of our project, we chose Heroku for its free tier option and easy-to-understand procedure. Since we already had created the docker image of our project, we just needed to add one more file called heroku.yml which will tell our Heroku server which Dockerfile to build (Though we only have one Docker container here, this feature is useful when we have multiple Docker container and a docker-compose.yml) and now our project has all the files needed to be deployed on Heroku. Before pushing our website on Heroku, for it to be deployed as a container we first have to set the stack of our Heroku app to container mode. After that's done, all we need to do is push our application on Heroku and release it.
 
 
-
-## References <a name="refernces"></a>
-* https://docs.python.org/3.9/
-* https://docs.docker.com/language/python/
-* https://flask.palletsprojects.com/en/2.0.x/
-* https://www.tensorflow.org/api_docs/python/tf/all_symbols
-* https://devcenter.heroku.com/categories/python-support
-
-
 # challenge-mole
 
 # Description
@@ -67,20 +51,6 @@ The job entailed that we would develop a website that would be able to classify 
 
 The dataset provided by the client is here https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
    
-# Installation
-
-## Python version
-* Python 3.7
-
-## Packages used
-* Tensorflow
-* sklearn
-* pandas
-* numpy
-* matplotlib.pyplot
-* seaborn
-* plotly.express
-* streamlit
 
 # Future work
 The model was overfitting by a lot.  
@@ -100,7 +70,6 @@ to filter the images given to the model.
 
 ### Project mission:
 - The main mission of this project was to create an app using CNN and Keras to diagnose the mole images. The app could predict whether the image detected/loaded is cancerous or benign
-
 
 
 ## Visuals: 
