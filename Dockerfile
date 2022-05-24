@@ -1,8 +1,10 @@
-FROM win:latest
-RUN apt-get update -y
-RUN apt-get install -y python3-pip python-is-python3 build-essential
-COPY ./project /project
-WORKDIR /project
+FROM tensorflow/tensorflow:2.5.0
+
+WORKDIR /app
+COPY . .
+
+EXPOSE 5000
+
 RUN pip install -r requirements.txt
-ENTRYPOINT ["python"]
-CMD ["app.py"]
+
+CMD ["python", "app.py"]
