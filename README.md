@@ -132,8 +132,6 @@ $ python app.py
 * Python 3.9
 
 ### Packages used
-* Python 3.9.1
-
 * os
 * Flask==2.1.2
 * Pillow==9.1.1
