@@ -31,16 +31,10 @@ Built the CNN model from scratch, the key features implemented in the model are:
 
 
 
-## Website & Docker Image <a name="website"></a>
+## Deployment <a name="website"></a>
 Used the Flask framework in python for creating the backend of the website, and used HTML, CSS, and Bootstrap for the structure and designing of each page. The input is taken in as a file and is checked whether it is an image or not using the extension of the file. The image is firstly stored in the static folder which, after each refresh, empties itself, so any image uploaded will be lost after a refresh. After the image has been uploaded and stored, it will be processed so that it is compatible with our model, and then passed to the model for classification. The result from the model is then displayed on the same page using jinja2. As for any type of error, we have used Flask framework's Flash messages module for displaying that error to the user in a readable format.
 
-After the website was created, we added the Dockerfile file to our directory for the purpose of creating a docker image of our project, we also had to modify our Flask code for it to run in a docker container. Since ports are dynamically allocated each time in a docker container we had to fetch the port, for our website to run on, at runtime. All that was left now was to build the docker image, test it for bugs and finally push the docker image on DockerHub.
-
-
-
-## Deployment <a name="deploy"></a>
-
-For the deployment of our project, we chose Heroku for its free tier option and easy-to-understand procedure. Since we already had created the docker image of our project, we just needed to add one more file called heroku.yml which will tell our Heroku server which Dockerfile to build (Though we only have one Docker container here, this feature is useful when we have multiple Docker container and a docker-compose.yml) and now our project has all the files needed to be deployed on Heroku. Before pushing our website on Heroku, for it to be deployed as a container we first have to set the stack of our Heroku app to container mode. After that's done, all we need to do is push our application on Heroku and release it.
+![Snapshot of the App](https://raw.githubusercontent.com/saifalbaghdadi/saifalbaghdadi/development/img/sc.png)
 
 
 # challenge-mole
