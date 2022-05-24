@@ -35,8 +35,7 @@ The dataset provided by the client is here https://www.kaggle.com/kmader/skin-ca
 
 # Future work
 The model was overfitting by a lot.  
-To improve accuracy there has to be looked at more data augmentation techniques  
-to filter the images given to the model.
+To improve accuracy there has to be looked at more data augmentation techniques .
 
 ## Skin Cancer Definition and Types: 
 - Most skin cancers are locally destructive cancerous (malignant) growth of the skin. They originate from the cells of the epidermis, the superficial layer of the skin and the majority of them rarely spread to other parts of the body and become life-threatening, ecxept for Melanoma which is lethal.
