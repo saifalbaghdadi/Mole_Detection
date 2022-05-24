@@ -37,8 +37,6 @@ Used the Flask framework in python for creating the backend of the website, and 
 ![Snapshot of the App](https://raw.githubusercontent.com/saifalbaghdadi/saifalbaghdadi/development/img/sc.png)
 
 
-# challenge-mole
-
 # Description
 This is a job we received from the company "skinCare".
 The job entailed that we would develop a website that would be able to classify pictures of moles.
