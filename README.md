@@ -10,6 +10,9 @@ Skin Cancer is a common disease these days.
 * Early detection is critical.
 
 
+## Project mission:
+- The main mission of this project was to create an app using CNN and Keras to diagnose the mole images. The app could predict whether the image detected/loaded is cancerous or benign
+
 ## Model Creation 
 Built the CNN model from scratch, the key features implemented in the model are:
 * **Conv2d** - All the convolutional layers have the same parameters except the input channel and output channel size.
@@ -33,20 +36,9 @@ The job entailed that we would develop a website that would be able to classify 
 The dataset provided by the client is here https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
    
 
-# Future work
+## Future work
 The model was overfitting by a lot.  
 To improve accuracy there has to be looked at more data augmentation techniques .
-
-## Skin Cancer Definition and Types: 
-- Most skin cancers are locally destructive cancerous (malignant) growth of the skin. They originate from the cells of the epidermis, the superficial layer of the skin and the majority of them rarely spread to other parts of the body and become life-threatening, ecxept for Melanoma which is lethal.
-- There are three major types of skin cancer: (1) basal cell carcinoma (the most common), (2) squamous cell carcinoma (the second most common) and (3) melanoma
-- The images used for this CNN excercise cover two cancerous types; bcc and mel,together with another 5 benign types; Akiec,Bkl,Df,Nv,and Vasc
-
- 
-
-### Project mission:
-- The main mission of this project was to create an app using CNN and Keras to diagnose the mole images. The app could predict whether the image detected/loaded is cancerous or benign
-
 
 ## Visuals: 
 
@@ -92,11 +84,10 @@ $ python app.py
 * scikit-learn==1.1.1
 * tensorflow.keras
 
-## The Dataset
-
-The dataset used for the model can be found at  https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000 
-It was created by Tschandl et al. 2018. 
-
 
 ## Timeline
 16-05-2022 to 24/05/2022
+
+## Author
+
+Saif Malkshahi
