@@ -105,7 +105,11 @@ to filter the images given to the model.
 
 ## Visuals: 
 
+<<<<<<< HEAD
 <p>Model accuracy: (  0.7214  )   &npsp;&npsp;&npsp;&npsp;&npsp;   Model loss: (  1.8070  )</p>  
+=======
+<h4>Model accuracy: (  0.7214  )   &npsp;&npsp;&npsp;&npsp;&npsp;   Model loss: (  1.8070  )</h4> 
+>>>>>>> f2b7f33a04e461b95d60199e6a111f159c24a6d9
 
 ![Snapshot of the App](https://raw.githubusercontent.com/saifalbaghdadi/saifalbaghdadi/development/img/output1.png)
 ![Snapshot of the App](https://raw.githubusercontent.com/saifalbaghdadi/saifalbaghdadi/development/img/output2.png)
