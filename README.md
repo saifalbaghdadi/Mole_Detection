@@ -132,35 +132,27 @@ $ python app.py
 * Python 3.9
 
 ### Packages used
+* Python 3.9.1
+
 * os
-* numpy==1.19.5
-* pandas==1.3.3
-* matplotlib.pyplot==3.4.2
-* itertools
-* seaborn
-* sklearn
+* Flask==2.1.2
+* Pillow==9.1.1
+* requests==2.27.1
+* gunicorn==20.1.0
+* Jinja2==3.1.2
+* keras==2.9.0                        
+* numpy==1.22.3 
+* pandas==1.4.2
+* seaborn==0.11.2
+* matplotlib==3.5.2
+* Werkzeug==2.1.2
+* scikit-learn==1.1.1
 * tensorflow.keras
-* Keras==2.4.3
-* Pillow==8.3.1
-* scikit-learn==0.24.2
-* streamlit==0.88.0
-* tensorflow-cpu==2.5.0
-
-## Usage and links
-
-   | File                | Description                                                    |
-   |---------------------|----------------------------------------------------------------|
-   | mole_detection.py         | Main python code|
-   | mole_model.py         | Python code with Neural network model|
-   | mole_preprocessing.py        | Python code for visuals (dataset and results)|
-   | visuals            | Folder including the plots presented on the Readme |https://github.com/minhhienvo368/cancer-detector
-   | NoCan App Presentation           | Powerpoint presentation: https://docs.google.com/presentation/d/1IPsoEJlo0RAcnG8BPl25Rd-0FjspsNQpU9mjD7WalmM/edit#slide=id.g1f87997393_0_864 
 
 ## The Dataset
 
-The dataset used for the model can be found at  https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000 
+The dataset used for the model can be found at  https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000 
 It was created by Tschandl et al. 2018. 
-
 
 
 ## Timeline
