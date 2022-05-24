@@ -96,26 +96,12 @@ to filter the images given to the model.
 - There are three major types of skin cancer: (1) basal cell carcinoma (the most common), (2) squamous cell carcinoma (the second most common) and (3) melanoma
 - The images used for this CNN excercise cover two cancerous types; bcc and mel,together with another 5 benign types; Akiec,Bkl,Df,Nv,and Vasc
 
-     | Abbreviation          | Full name                              |
-     |-----------------------|----------------------------------------|
-     |Bcc | Basal cell carcinoma |
-     |Mel| Melanoma |
-     |Akiec| Actinic keratoses and intraepithelial carcinoma | 
-     |Bkl | Benign lesions of the keratosis |
-     |Df | Dermatofibroma |
-     |Nv | Melanocytic nevi|
-     |Vasc| Vascular lesions |
  
 
 ### Project mission:
 - The main mission of this project was to create an app using CNN and Keras to diagnose the mole images. The app could predict whether the image detected/loaded is cancerous or benign
 
 
-## NocCan App 
-
-### Website
-https://melanomia-detection.herokuapp.com/
-https://share.streamlit.io/minhhienvo368/cancer-detector/main/mole_detection.py
 
 ## Visuals:  
 ![Snapshot of the App](https://user-images.githubusercontent.com/84380899/134656153-df62d463-dcf0-4d06-a6bc-c3ac3ea3d78c.png)
@@ -172,13 +158,5 @@ It was created by Tschandl et al. 2018.
 
 
 
-## Contributors
-   | Name                  | Github                                 |
-   |-----------------------|----------------------------------------|
-   |Amaury van Kesteren | https://github.com/AmauryvanKeste | 
-   |Heba Elabrak | https://github.com/Helabrak |
-   |Michel OMBESSA | https://github.com/mdifils |
-   |Minh Hien Vo| https://github.com/minhhienvo368 |
-
 ## Timeline
-20-09-2021 to 24-09-2021
+16-05-2022 to 24/05/2022
