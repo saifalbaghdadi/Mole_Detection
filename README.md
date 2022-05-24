@@ -38,11 +38,7 @@ The model was overfitting by a lot.
 To improve accuracy there has to be looked at more data augmentation techniques  
 to filter the images given to the model.
 
-
-# SKIN CANCER DETECTION USING CNN AND KERAS PROJECT
-
-## Description
-### Skin Cancer Definition and Types: 
+## Skin Cancer Definition and Types: 
 - Most skin cancers are locally destructive cancerous (malignant) growth of the skin. They originate from the cells of the epidermis, the superficial layer of the skin and the majority of them rarely spread to other parts of the body and become life-threatening, ecxept for Melanoma which is lethal.
 - There are three major types of skin cancer: (1) basal cell carcinoma (the most common), (2) squamous cell carcinoma (the second most common) and (3) melanoma
 - The images used for this CNN excercise cover two cancerous types; bcc and mel,together with another 5 benign types; Akiec,Bkl,Df,Nv,and Vasc
