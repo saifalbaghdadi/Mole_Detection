@@ -89,5 +89,4 @@ $ python app.py
 16-05-2022 to 24/05/2022
 
 ## Author
-
 Saif Malkshahi
